@@ -19,7 +19,7 @@ fi
 
 export DOCC_JSON_PRETTYPRINT=YES
 
-for x in MLX MLXRandom MLXNN MLXOptimizers MLXFFT; do
+for x in MLX MLXRandom MLXNN MLXOptimizers MLXFFT MLXLinalg; do
     swift package \
 	--allow-writing-to-directory ./docs \
 	generate-documentation \
